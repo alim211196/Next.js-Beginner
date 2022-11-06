@@ -1,3 +1,7 @@
+.container {
+  padding: 0 2rem;
+}
+
 .main {
     min-height: 100vh;
   padding: 6rem 0;
@@ -5,14 +9,11 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
 }
 .blogItem h3{
     cursor: pointer;
 }
 .blogItemh3{
     font-size: 2rem;
-}
-.container {
-    padding: 0 20rem;
+    color: #7a52c7;
 }

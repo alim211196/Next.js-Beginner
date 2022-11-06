@@ -10,13 +10,6 @@
     flex-direction: column;
     justify-content: flex-start;
 }
-
-.btn {
-  color: white;
-  background: black;
-  padding: 7px 20px;
-  cursor: pointer;
-  border-radius: 6px;
-  font-size: 12px;
-  margin-bottom: 9px;
+.center{
+  color: #7a52c7;
 }
