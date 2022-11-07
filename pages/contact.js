@@ -47,8 +47,8 @@ const Contact = () => {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <h1>Contact Us</h1>
         <form onSubmit={handleSubmit} className={styles.form}>
+          <h1>Contact Us</h1>
           <div className={styles.mb3}>
             <label htmlFor="name" className={styles.formlabel}>
               Full name

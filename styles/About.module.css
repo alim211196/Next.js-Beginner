@@ -13,3 +13,23 @@
 .center{
   color: #7a52c7;
 }
+@media only screen and (max-width: 740px) {
+.main {
+    min-height: 100vh;
+  padding: 9rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+}
+@media only screen and (max-width: 520px) {
+.main {
+    min-height: 100vh;
+  padding: 15rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+}
