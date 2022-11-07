@@ -5,12 +5,18 @@ const Navbar = () => {
   const [mode, setMode] = useState(false);
 
   return (
-    <nav className={mode === false ? styles.mainnav : styles.mainnav1}>
+    <nav className={
+      // mode === false ? 
+      // styles.mainnav : 
+      styles.mainnav}>
       <div>
         <Link href="/">
           {" "}
-          <h1 className={mode === false ? styles.logotitle : styles.logotitle1}>
-            {"<Hunting Coder/>"}
+          <h1 className={
+            // mode === false ?
+            //  styles.logotitle :
+              styles.logotitle}>
+             {"<NextJS Beginner/>"}
           </h1>
         </Link>
       </div>
@@ -27,7 +33,7 @@ const Navbar = () => {
         <li>
           <Link href="/contact">Contact Us</Link>
         </li>
-        <li>
+        {/* <li>
           <button
             type="submit"
             className={styles.btnstyle}
@@ -37,7 +43,7 @@ const Navbar = () => {
           >
             {mode === false ? "Light Mode" : "Dark Mode"}
           </button>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

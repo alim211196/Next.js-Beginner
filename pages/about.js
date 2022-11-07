@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-        <h1 className={styles.center}>About Hunting Coder</h1>
+        <h1 className={styles.center}>About  {"<NextJS Beginner/>"}</h1>
         <h2>Introduction</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
